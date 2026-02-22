@@ -97,9 +97,10 @@ export async function getDoctorInfo() {
 
 export async function getContactInfo() {
     return {
-        address: "123 Princes Drive, Morwell VIC 3840",
-        phone: "(03) 51XX XXXX",
-        email: "reception@morwellmedical.example.com.au",
+        address: "119 George St, Morwell VIC 3840",
+        phone: "(03) 5118 3229",
+        fax: "(03) 5118 3266",
+        email: "reception@morwellmedicalcentre.net",
         hours: [
             "Mon - Fri: 8:30 AM - 5:30 PM",
             "Saturday: 9:00 AM - 1:00 PM",

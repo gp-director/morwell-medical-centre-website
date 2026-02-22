@@ -5,6 +5,7 @@ interface ContactProps {
     contactInfo: {
         address: string;
         phone: string;
+        fax: string;
         email: string;
         hours: string[];
     };
@@ -53,6 +54,7 @@ export default function Contact({ contactInfo }: ContactProps) {
                                 <div>
                                     <h4 className="font-bold text-xl mb-1">Call Us</h4>
                                     <p className="text-white/80">{contactInfo.phone}</p>
+                                    <p className="text-white/60 text-sm mt-1">Fax: {contactInfo.fax}</p>
                                 </div>
                             </div>
 
